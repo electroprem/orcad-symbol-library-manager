@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OrCAD Library Manager v1.0</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #005F73; color: white; padding: 1rem 2rem; }
+    nav a { color: white; margin-right: 1rem; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    h1, h2, h3 { color: #0A9396; }
+    footer { background: #94D2BD; color: #001219; text-align: center; padding: 1rem; margin-top: 3rem; }
+    section { margin-bottom: 3rem; }
+    pre { background: #E9D8A6; padding: 1rem; border-radius: 5px; overflow-x: auto; }
+    a.button {
+      display: inline-block;
+      background: #0A9396;
+      color: white;
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      border-radius: 3px;
+      text-decoration: none;
+    }
+    a.button:hover {
+      background: #005F73;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OrCAD Library Manager v1.0</h1>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+      <a href="#contributing">Contributing</a>
+      <a href="#license">License</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="overview">
+      <h2>Project Overview</h2>
+      <p>A spreadsheet-style tool to batch edit OrCAD schematic symbol properties with CSV/XML round-trip, validation, and naming normalization to keep BOM data consistent and error-free.</p>
+      <p>Designed to reduce tedious manual edits and speed up library maintenance for medium to large PCB projects.</p>
+    </section>
+
+    <section id="features">
+      <h2>Key Features (v1.0)</h2>
+      <ul>
+        <li>Spreadsheet-like grid for fast batch editing</li>
+        <li>CSV/XML import and export support</li>
+        <li>Property validation and normalization</li>
+        <li>Designed to reduce BOM mismatches and late-cycle edits</li>
+      </ul>
+    </section>
+
+    <section id="download">
+      <h2>Download</h2>
+      <p>Get the latest source code and Windows executable:</p>
+      <ul>
+        <li><a href="https://github.com/electroprem/orcad-symbol-library-manager/blob/main/src/OrCAD_SymblLibManager.py" target="_blank">Source Code (v1.0)</a></li>
+        <li><a href="https://github.com/electroprem/orcad-symbol-library-manager/releases/latest" target="_blank">Windows Executable (v1.0)</a></li>
+      </ul>
+    </section>
+
+    <section id="contributing">
+      <h2>Contributing</h2>
+      <p>Contributions are welcome! Please open issues or pull requests to report bugs or add features. Review the <a href="https://github.com/electroprem/orcad-symbol-library-manager/blob/main/CONTRIBUTING.md" target="_blank">contribution guidelines</a> for details.</p>
+    </section>
+
+    <section id="license">
+      <h2>License</h2>
+      <p>This project is licensed under a custom license for non-commercial use. See the <a href="https://github.com/electroprem/orcad-symbol-library-manager/blob/main/LICENSE.md" target="_blank">LICENSE file</a> for full terms.</p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Prem Mistry | <a href="https://github.com/electroprem/orcad-symbol-library-manager" target="_blank">GitHub Repo</a>
+  </footer>
+</body>
+</html>
