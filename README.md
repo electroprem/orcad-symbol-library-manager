@@ -9,7 +9,7 @@ Active development; publishing v1.0 source and a Windows executable while newer 
 Last-minute library property updates that feed directly into the Bill of Materials (BOM) are tedious and error-prone when done manually for each symbol.  
 This tool replaces those manual edits with a fast, tabular workflow that is more reliable and efficient.
 
-## Key Features (v6)
+## Key Features
 - Spreadsheet-like grid to view and edit symbol properties across large libraries  
 - CSV/XML import and export for round-trip edits and external reviews  
 - Validation helpers and quick normalization for property names and values  
